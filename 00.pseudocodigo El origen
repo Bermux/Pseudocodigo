@@ -1,0 +1,35 @@
+
+Algoritmo EsHoraDeComer
+	
+	Escribir "Te gustaria comer algo?"
+	Leer contestacion
+	
+	Si contestacion= "si" Entonces
+		Escribir "¿Qué te gustaría tomar?"
+		Leer alimento
+		Escribir "De acuerdo, ahora te sirvo " alimento 
+		Escribir "¿Deseas algo mas?"
+		Leer contestacion2
+		Si contestacion2= "si" Entonces
+			Escribir "¿Qué mas te gustaría tomar?"
+			Leer alimento2
+			Escribir "¡¡marchando!!"
+			Escribir "¿Algo más?"
+			Leer contestacion3
+			Si contestacion3= "si" Entonces
+				Escribir "Lo siento pero vamos a cerrar, vuelva pronto"
+			Sino
+				Escribir "gracias por su visita, vuelva pronto"
+			Fin Si
+		Sino
+			Escribir "gracias por su visita, vuelva pronto"
+		Fin Si
+	Sino
+		Escribir "¿Entonces para que vienes?"
+		Leer queja
+		Escribir "vale"
+	Fin Si
+	
+	
+FinAlgoritmo
+
