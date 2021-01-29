@@ -1,0 +1,7 @@
+Algoritmo VamosAconocernos
+	Escribir "Hola, me gustaría ser tu amigo. ¿Cómo te llamas?"
+	Leer NombreAmigo
+	Escribir "Encantado de conocerte " NombreAmigo
+	Escribir "Mi nombre es Álavaro"
+	Escribir "Seguro que seremos muy buenos amigos"
+FinAlgoritmo

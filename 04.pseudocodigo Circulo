@@ -1,0 +1,14 @@
+Algoritmo EcuacinCuadrática
+	Escribir "Dime los número para escribir la ecuación de segundo grado"
+	Escribir "Dame un número para A"
+	Leer a
+	Escribir "Dime el número para B"
+	Leer b
+	Escribir "Y dame otro número para C"
+	Leer c
+	
+	Escribir "ha sido muy facil, el primer resultado es " ((-b -1*(rc(b^2-4*a*c))))/(2*a) " Y el segundo resultado es " ((-b +1*(rc(b^2-4*a*c))))/(2*a)
+
+	
+FinAlgoritmo
+

@@ -1,0 +1,7 @@
+Algoritmo HoraDeJugar
+	Escribir "¿Sabes lo que es un número opuesto a otro?"
+	Escribir "Dime un número y te enseño que es"
+	Leer Cifra
+	
+	Escribir  "Es muy sencillo, solo hay que cambiar el signo al número" Cifra - Cifra*2 
+FinAlgoritmo

@@ -1,0 +1,8 @@
+Algoritmo HoraDeJugar
+	Escribir "¿Te gustaría jugar a algo?"
+	Escribir "Te propongo algo. Dime un número y te sumaré tanto su número anterior y el que le precede"
+	Leer Cifra
+	
+	Escribir "Que fácil, la respuesta es " Cifra-1 + Cifra+1 
+	
+FinAlgoritmo

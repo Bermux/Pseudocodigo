@@ -1,0 +1,11 @@
+Algoritmo SoloMayoresDeEdad
+	Escribir "Lo siento colega pero no se si tienes la edad adecuada para continuar haciendo estos ejercicios"
+	Escribir "¿Cuantos años tienes?"
+	Leer edad
+	Si edad>=18 Entonces
+		Escribir "Gracias por la información, puede continuar"
+	Sino
+		Escribir "Lo siento pero no tienes la edad adecuada para estos ejercicios, podrías salir perjudicado"
+	Fin Si
+	
+FinAlgoritmo
