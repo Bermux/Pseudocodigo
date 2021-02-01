@@ -1,0 +1,13 @@
+Algoritmo NumerosEnteros
+	Definir elnumero como entero;
+	Escribir "Dime un número, vamos al ordenarlo:";
+	Leer elnumero;
+	Segun elnumero Hacer
+		1,2,3,4: Escribir "Número Positivo";
+		-4: Escribir "Número Negativo";
+		0: Escribir "Es el número cero";
+		De Otro Modo:
+			Escribir "Número incorrecta";
+	FinSegun
+	
+FinAlgoritmo

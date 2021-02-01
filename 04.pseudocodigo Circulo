@@ -1,14 +1,7 @@
-Algoritmo EcuacinCuadrática
-	Escribir "Dime los número para escribir la ecuación de segundo grado"
-	Escribir "Dame un número para A"
-	Leer a
-	Escribir "Dime el número para B"
-	Leer b
-	Escribir "Y dame otro número para C"
-	Leer c
+Algoritmo Círculos
+	Escribir "¿Sabrias decirme cual es la longitud de una circunferencia  y su superficie sabiendo su radio?"
+	Escribir "Dime el radio de cualquier circunferencia en cm, vamos a calcular su longitud y su superficie."
+	Leer Radio
 	
-	Escribir "ha sido muy facil, el primer resultado es " ((-b -1*(rc(b^2-4*a*c))))/(2*a) " Y el segundo resultado es " ((-b +1*(rc(b^2-4*a*c))))/(2*a)
-
-	
+	Escribir "Es muy sencillo, su longitud sería " (2*PI)*Radio "cm"  " Y su área sería " PI*(Radio^2) "cm^2"
 FinAlgoritmo
-

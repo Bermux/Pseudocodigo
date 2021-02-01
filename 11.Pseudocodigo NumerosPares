@@ -1,0 +1,15 @@
+Algoritmo NumerosPares
+	Escribir"Dime un número entero y te diré si es par o impar"
+	Leer cifra
+	Segun cifra Hacer
+		opcion_1:
+			secuencia_de_acciones_1
+		opcion_2:
+			secuencia_de_acciones_2
+		opcion_3:
+			secuencia_de_acciones_3
+		De Otro Modo:
+			secuencia_de_acciones_dom
+	Fin Segun
+FinAlgoritmo
+si divido elnumero entre dos y el resto es 0 quiere decir que es par, de lo contrario el resto dará 1

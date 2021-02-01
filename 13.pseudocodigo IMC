@@ -1,0 +1,10 @@
+Algoritmo CalculoDeIMC
+	Escribir " ¿Te gustaría saber tu Índice de Masa Corporal? "
+	Escribir "Para ello necesito saber tu altura en metros"
+	Leer altura
+	
+	Escribir "Además necesito saber tu masa en Kg"
+	Leer kg
+	
+	Escribir "Perfecto, el resultado de tu IMC es de " kg/(altura^2)
+FinAlgoritmo
