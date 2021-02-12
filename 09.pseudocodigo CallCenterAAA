@@ -1,3 +1,22 @@
 Algoritmo CallCenter
+	Escribir "Hola buenas. ¿Que necesita?"
+	Escribir "Acontinuación elija su cuestión y le responderemos su cuestion"
+	Escribir " 1 El televisor no enciende"
+	Escribir " 2 No puedo conectarme con la red"
+	Escribir " 3 El televisor no tiene sonido"
+	Escribir " Cualquier otra cuestión introduzca 4, le pasamos con un operador"
+	Leer respuesta
 	
+	Segun respuesta Hacer
+		1:
+			Escribir "Antes que nada asegurese de que el televisor está conectado a la red electrica, intente reiniciarlo, si el problema persiste, contacte con nosotros"
+		2:
+			Escribir "Primero intente reinicier el televisor, tras intentar conectarlo a la red, si sigue sin funcionar, contacte con nosotros"
+		3:
+			Escribir "Si el televisor to tiene sonido, puede reiniciarlo, si el problema persiste contacte con nosotros"
+		4:	
+			Escribir "En este momento no podemos responder tus cuestiones, intentelo más tarde"
+		De Otro Modo:
+			Escribir "Lo sentimos pero el numero indicado no pertenece a ninguna propuesta"
+	Fin Segun
 FinAlgoritmo
