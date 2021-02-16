@@ -2,8 +2,13 @@ Algoritmo NumerosEnteros
 	Escribir "Dime un número, vamos al ordenarlo:"
 	Leer elnumero
 	
-	Si expresion_logica Entonces
-		acciones_por_verdadero
+	Si elnumero=0 Entonces
+		Escribir "Este es el número cero, escribe otro"
 	Fin Si
-	
+	Si elnumero<0 Entonces
+		Escribir "El número es negativo"
+	FinSi
+	Si elnumero>0 Entonces
+		Escribir "El número es positivo"
+	FinSi
 FinAlgoritmo

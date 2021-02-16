@@ -7,4 +7,8 @@ Algoritmo Terna
 	Escribir "Escribe el tercero"
 	Leer numero3
 	
+	Si numero1=numero2=numero3 Entonces
+		Escribir "podme algo más dificil en vez de repetir todos los números"
+	FinSi
+	Si numero1>numero2 y numero3
 FinAlgoritmo

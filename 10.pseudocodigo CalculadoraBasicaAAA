@@ -7,24 +7,14 @@ Algoritmo CalculadoraBasica
 	Escribir "Ahora necesito el otro"
 	Leer numero2
 	
-	Si Operacio=suma Entonces
+	Si Operacion="suma" Entonces
 		Escribir "La solución es " numero1+numero2
 	Fin Si
-	Si Operacion=resta Entonces
+	Si Operacion="resta" Entonces
 		Escribir "La solución es " numero1-numero2
 	FinSi
-	Si Operacion=multiplicacion Entonces
+	Si Operacion="multiplicacion" Entonces
 		Escribir "La solución es " numero1*numero2
 	FinSi
+	
 FinAlgoritmo
-
-Segun Operacion Hacer
-	suma:
-		Escribir "La solución es " numero1+numero2
-	resta:
-		Escribir "La solución es " numero1-numero2
-	multiplicacion:
-		Escribir "La solución es " numero1*numero2
-	De Otro Modo:
-		Escribir "hola"
-Fin Segun
