@@ -1,0 +1,11 @@
+Algoritmo Contando
+	Escribir "Dime el numero hasta el que quieras que escriba"
+	Leer cantidad
+	
+	Para i=1 Hasta cantidad Hacer
+		Escribir i
+	FinPara
+	Escribir "Ha sido muy fácil, me he divertido mucho"
+	
+FinAlgoritmo
+
