@@ -1,0 +1,25 @@
+Algoritmo Terna
+	Escribir "Ahora en vez de comparar dos números para ordenarlos segun su tamaño, lo haremos con tres."
+	Escribir "Escribe tu primer número"
+	Leer numero1
+	Escribir "Ahora el segundo"
+	Leer numero2
+	Escribir "Escribe el tercero"
+	Leer numero3
+	
+	Si numero1=numero2 Entonces
+		Escribir "ponme algo más dificil en vez de repetir todos los números"
+	FinSi
+	
+Segun numbers Hacer
+	numero1=numero2:
+		Escribir "tonto"
+	numero2=numero1=numero3:
+		Escribir "hola tio"
+	numero3=numero1:
+		Escribir "mejo"
+	De Otro Modo:
+		Escribir "eres tonto"
+Fin Segun
+
+FinAlgoritmo

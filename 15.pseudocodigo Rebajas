@@ -1,0 +1,22 @@
+Algoritmo OfertasDelDía
+	Escribir " Hoy en nuestra tienda PCBermu tenemos una oferta especial. Si la suma de los tres artículos comprados superan los 200, le ofrecemos un descuento total de un 15%"
+	Escribir "Para saber si el descuento es aplicable a su compra indique a continuación el número de productos comprados"
+	Leer productos
+	
+	Si productos>=3 Entonces
+		Escribir "A continuación comente uno por uno los precios de cada artículo seleccionado"
+		Leer precio1
+		Leer precio2
+		Leer precio3
+		Si precio1+precio2+precio3>=200 Entonces
+			Escribir "Su importe total sin descuento sería de " precio1+precio2+precio3 " euros y añadiendo el descuento del 15% " (precio1+precio2+precio3)-((precio1+precio2+precio3)*15/100)
+		SiNo
+			Escribir "Su importe final es de " precio1+precio2+precio3 " euros, si desea que la oferta sea aplicada a su compra deverá superar el importe de 200 euros"
+		Fin Si
+	SiNo
+		Escribir "Lo sentimos pero no cumple los riquisitos básicos para la oferta, compre algún producto más."
+
+	Fin Si
+	
+	
+FinAlgoritmo

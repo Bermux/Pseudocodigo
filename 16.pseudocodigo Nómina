@@ -1,0 +1,11 @@
+Algoritmo Nómina
+	Escribir "Si quieres cobrar esta semana, te sugiero que me digas tus horas trabajadas"
+	Escribir " ¿Cuantas horas has empleado al trabajo esta semana?"
+	Leer horas
+	
+	Si horas>40 Entonces
+		Escribir "Tu sueldo es de 1200 euros y si le añadimos las " horas-40 " horas extras, sumarían un valor de " (horas-40)*40 " haciendo un total de " 1200+(horas-40)*40
+	SiNo
+		Escribir "Tu salario es de " horas*30 " euros"
+	FinSi
+FinAlgoritmo
