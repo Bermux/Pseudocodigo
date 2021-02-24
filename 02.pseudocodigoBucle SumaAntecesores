@@ -1,0 +1,9 @@
+Algoritmo SumadeAntecesores
+	Escribir "Dime un número entero y te sumaré todos sus antecesores"
+	Leer cantidad
+	
+	Para i=cantidad-1 Hasta 0 Hacer
+		suma= suma+i
+	FinPara
+	Escribir "El resultado es " suma
+FinAlgoritmo

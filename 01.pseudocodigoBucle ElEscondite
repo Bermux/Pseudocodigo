@@ -1,0 +1,10 @@
+Algoritmo ElEscondite
+	Escribir "Vamos ha jugar al escondite, ¿Desde qué número quieres que empiece a contar?"
+	Leer cantidad
+	
+	Para i=cantidad Hasta 1 Hacer
+		Escribir i
+	FinPara
+	Escribir "¡¡¡Ya voy!!!" 
+	
+FinAlgoritmo
