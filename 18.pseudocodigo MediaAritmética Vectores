@@ -1,0 +1,18 @@
+Algoritmo MediaAritmética
+	Definir n, num, aMedA Como Entero;
+	Definir medA Como Real;
+	Escribir "Escribe un número principal y uno final, vamos ha hacerle la media aritmética de unos números al azar entre los números elegidos"
+	Leer n;
+	
+	aMedA <- 0;
+	Para i <- 1 Hasta n Con Paso 1 Hacer
+		Leer num;
+		aMedA <- aMedA + num;
+	FinPara
+	
+	Escribir "Suma media: ", aMedA;
+	med <- aMedA / n;
+	Escribir "Media Aritmética: " med;
+	
+
+FinAlgoritmo

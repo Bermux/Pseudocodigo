@@ -1,0 +1,16 @@
+Algoritmo OcultandoVocales
+	Escribir "Ingrese la frase para ocultar vocales"
+	Leer frase
+	cant_letras = Longitud(frase)
+	
+	Para i<- 1 hasta cant_letras Hacer
+		frase_nueva = Subcadena(frase,i,i)
+		Segun (frase_nueva) Hacer
+			Opcion ("a"),("A"),("e"),("E"),("i"),("I"),("o"),("O"),("u"),("U"):
+				frase_nueva = Subcadena(frase, i+1,i+1)
+			De Otro Modo:
+				Escribir frase_nueva Sin Saltar
+		FinSegun
+	FinPara
+	
+FinAlgoritmo

@@ -1,0 +1,16 @@
+Algoritmo PiensaUnNúmero
+	Escribir "vamos a jugar a un juego en el que debes adivinar el número que yo piense entre 1 y 10"
+	Escribir "¿En qué número estás pensando?"
+	Leer num
+	cifra=aleatorio(1,10)
+	Si cifra> num Entonces
+		Escribir "No has acertado, tengo en mente un número mayor que el tuyo " cifra
+	FinSi
+	Si cifra< num Entonces
+		Escribir "No has acertado, tengo en mente un número menor al tuyo " cifra
+	FinSi 
+	Si cifra=num Entonces
+		Escribir "Efectivamente, has acertado el número, estaba pensando en el " cifra
+	FinSi
+	Escribir "Vamos a seguir jugando"
+FinAlgoritmo
