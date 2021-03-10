@@ -27,7 +27,8 @@ Algoritmo sin_titulo
 	examenes[4,2]=1
 	
 	//Leer
-	Escribir examenes
+	Escribir examenes[i,j] "" Sin Saltar
+	
 	
 FinAlgoritmo
 	
