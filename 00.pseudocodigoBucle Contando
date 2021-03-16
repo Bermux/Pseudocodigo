@@ -3,7 +3,7 @@ Algoritmo Contando
 	Leer cantidad
 	
 	Para i=1 Hasta cantidad Hacer
-		Escribir i
+		Escribir i Sin Saltar " "
 	FinPara
 	Escribir "Ha sido muy fácil, me he divertido mucho"
 	

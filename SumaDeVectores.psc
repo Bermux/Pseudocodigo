@@ -1,4 +1,4 @@
-Algoritmo SumaDeVectores
+Algoritmo  sin_nombre
 	Dimension vecA(5)
 	
 	Para i<-1 Hasta 5 Con Paso 1 Hacer
@@ -9,8 +9,16 @@ Algoritmo SumaDeVectores
 	
 	Para j<-1 Hasta 5 Con Paso 1 Hacer
 		Escribir Aleatorio(1,5) Sin Saltar " " 
-		Nuevo_vector = vecA(1) + vecB(1)
 	FinPara
-	
-	Escribir Nuevo_vector
 FinAlgoritmo
+
+	Funcion RellenarVector(fila, columnas, inf, sup)
+		
+		Para i<-1 Hasta filass
+			Para j<-1 Hasta columnass
+				matriz[i,j] = Aleatorio(filass,columnass)
+			FinPara
+		FinPara
+	FinFuncion
+	
+
